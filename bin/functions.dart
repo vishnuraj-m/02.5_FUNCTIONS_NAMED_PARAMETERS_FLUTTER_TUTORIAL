@@ -1,4 +1,9 @@
-void main() {
+// void main() {
+//   sum();
+//   print('after future');
+// }
+
+Future<void> main() async {
   sum();
   print('after future');
 }
